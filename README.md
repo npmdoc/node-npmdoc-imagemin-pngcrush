@@ -1,9 +1,14 @@
-# api documentation for  [imagemin-pngcrush (v5.1.0)](https://github.com/imagemin/imagemin-pngcrush#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-imagemin-pngcrush.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-imagemin-pngcrush) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-imagemin-pngcrush.svg)](https://travis-ci.org/npmdoc/node-npmdoc-imagemin-pngcrush)
-#### pngcrush imagemin plugin
+# npmdoc-imagemin-pngcrush
 
-[![NPM](https://nodei.co/npm/imagemin-pngcrush.png?downloads=true)](https://www.npmjs.com/package/imagemin-pngcrush)
+api documentation for  [imagemin-pngcrush (v5.1.0)](https://github.com/imagemin/imagemin-pngcrush#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-imagemin-pngcrush.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-imagemin-pngcrush) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-imagemin-pngcrush.svg)](https://travis-ci.org/npmdoc/node-npmdoc-imagemin-pngcrush)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-imagemin-pngcrush/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-imagemin-pngcrush_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-imagemin-pngcrush/build/apidoc.html)
+pngcrush imagemin plugin
+
+[![NPM](https://nodei.co/npm/imagemin-pngcrush.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/imagemin-pngcrush)
+
+- [https://npmdoc.github.io/node-npmdoc-imagemin-pngcrush/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-imagemin-pngcrush/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-imagemin-pngcrush/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-imagemin-pngcrush/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-imagemin-pngcrush/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +23,6 @@
 {
     "author": {
         "name": "Kevin Mårtensson",
-        "email": "kevinmartensson@gmail.com",
         "url": "github.com/kevva"
     },
     "bugs": {
@@ -61,21 +65,17 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "kevva",
-            "email": "kevinmartensson@gmail.com"
+            "name": "kevva"
         },
         {
-            "name": "shinnn",
-            "email": "snnskwtnb@gmail.com"
+            "name": "shinnn"
         },
         {
-            "name": "sindresorhus",
-            "email": "sindresorhus@gmail.com"
+            "name": "sindresorhus"
         }
     ],
     "name": "imagemin-pngcrush",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/imagemin/imagemin-pngcrush.git"
@@ -86,16 +86,6 @@
     "version": "5.1.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module imagemin-pngcrush](#apidoc.module.imagemin-pngcrush)
-
-
-
-# <a name="apidoc.module.imagemin-pngcrush"></a>[module imagemin-pngcrush](#apidoc.module.imagemin-pngcrush)
 
 
 
