@@ -61,12 +61,122 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.imagemin-pngcrush">module imagemin-pngcrush</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.imagemin-pngcrush.imagemin-pngcrush">
+            function <span class="apidocSignatureSpan"></span>imagemin-pngcrush
+            <span class="apidocSignatureSpan">({}, opts)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.imagemin-pngcrush.toString">
+            function <span class="apidocSignatureSpan">imagemin-pngcrush.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.imagemin-pngcrush.toString">module imagemin-pngcrush.toString</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.imagemin-pngcrush.toString.toString">
+            function <span class="apidocSignatureSpan">imagemin-pngcrush.</span>toString
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.imagemin-pngcrush" id="apidoc.module.imagemin-pngcrush">module imagemin-pngcrush</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.imagemin-pngcrush.imagemin-pngcrush" id="apidoc.element.imagemin-pngcrush.imagemin-pngcrush">
+        function <span class="apidocSignatureSpan"></span>imagemin-pngcrush
+        <span class="apidocSignatureSpan">({}, opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">opts =&#x3e; buf =&#x3e; {
+	opts = Object.assign({}, opts);
+
+	if (!Buffer.isBuffer(buf)) {
+		return Promise.reject(new TypeError(&#x27;Expected a buffer&#x27;));
+	}
+
+	if (!isPng(buf)) {
+		return Promise.resolve(buf);
+	}
+
+	const args = [
+		&#x27;-brute&#x27;,
+		&#x27;-force&#x27;,
+		&#x27;-q&#x27;
+	];
+
+	if (opts.reduce) {
+		args.push(&#x27;-reduce&#x27;);
+	} else {
+		args.push(&#x27;-noreduce&#x27;);
+	}
+
+	args.push(execBuffer.input, execBuffer.output);
+
+	return execBuffer({
+		input: buf,
+		bin: pngcrush,
+		args
+	}).catch(err =&#x3e; {
+		err.message = err.stderr || err.message;
+		throw err;
+	});
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.imagemin-pngcrush.toString" id="apidoc.element.imagemin-pngcrush.toString">
+        function <span class="apidocSignatureSpan">imagemin-pngcrush.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">toString = function () {
+    return text;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.imagemin-pngcrush.toString" id="apidoc.module.imagemin-pngcrush.toString">module imagemin-pngcrush.toString</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.imagemin-pngcrush.toString.toString" id="apidoc.element.imagemin-pngcrush.toString.toString">
+        function <span class="apidocSignatureSpan">imagemin-pngcrush.</span>toString
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
