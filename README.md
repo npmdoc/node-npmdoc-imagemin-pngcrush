@@ -1,8 +1,8 @@
 # npmdoc-imagemin-pngcrush
 
-api documentation for  [imagemin-pngcrush (v5.1.0)](https://github.com/imagemin/imagemin-pngcrush#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-imagemin-pngcrush.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-imagemin-pngcrush) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-imagemin-pngcrush.svg)](https://travis-ci.org/npmdoc/node-npmdoc-imagemin-pngcrush)
+#### basic api documentation for  [imagemin-pngcrush (v5.1.0)](https://github.com/imagemin/imagemin-pngcrush#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-imagemin-pngcrush.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-imagemin-pngcrush) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-imagemin-pngcrush.svg)](https://travis-ci.org/npmdoc/node-npmdoc-imagemin-pngcrush)
 
-pngcrush imagemin plugin
+#### pngcrush imagemin plugin
 
 [![NPM](https://nodei.co/npm/imagemin-pngcrush.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/imagemin-pngcrush)
 
@@ -83,7 +83,8 @@ pngcrush imagemin plugin
     "scripts": {
         "test": "xo && ava"
     },
-    "version": "5.1.0"
+    "version": "5.1.0",
+    "bin": {}
 }
 ```
 
